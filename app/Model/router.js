@@ -3,7 +3,10 @@ const datos = require('./datos.schema');
 // se necesita para el manejo de rutas
 const Router = require('express').Router;
 
-
+/**
+ * http://mongoosejs.com/docs/models.html -> ver metodos de mongoose
+ * https://coursework.vschool.io/mongoose-crud/ -> ejemplo
+ */
 
 const router = new Router();
 router.route('/')
